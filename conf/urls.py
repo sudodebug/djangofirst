@@ -23,6 +23,6 @@ urlpatterns = [
     path('', index),
     path('about/', about),
     path('welcome/', welcome),
-    path('students/<int:student_id>', student),
+    path('students/<int:student_id>', students_id),
 
 ]
